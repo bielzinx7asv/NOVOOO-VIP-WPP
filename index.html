@@ -1,0 +1,264 @@
+<!DOCTYPE html> 
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesso Exclusivo 🔥</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Quicksand', sans-serif;
+            background-color: #000000;
+            color: #fff;
+            overflow-x: hidden;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .hero img {
+            width: 250px;
+            height: 350px;
+            border-radius: 15px;
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .hero img:hover {
+            transform: scale(1.1);
+        }
+
+        .carousel {
+            position: relative;
+            margin: 60px 0;
+            text-align: center;
+        }
+
+        .carousel-inner {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            scrollbar-width: none;
+        }
+
+        .carousel-inner::-webkit-scrollbar {
+            display: none;
+        }
+
+        .carousel-item {
+            min-width: 350px;
+            margin: 0 15px;
+            scroll-snap-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .carousel-item img {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .carousel-item:hover {
+            transform: scale(1.05);
+        }
+
+        .carousel-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.6);
+            border: none;
+            color: #fff;
+            font-size: 2.5rem;
+            padding: 20px;
+            cursor: pointer;
+            z-index: 10;
+            border-radius: 50%;
+            transition: background 0.3s ease;
+        }
+
+        .carousel-btn:hover {
+            background: rgba(255, 64, 144, 0.8);
+        }
+
+        .carousel-btn.left {
+            left: 10px;
+        }
+
+        .carousel-btn.right {
+            right: 10px;
+        }
+
+        .whatsapp-button, .vip-button {
+            display: inline-block;
+            margin: 30px auto;
+            padding: 25px;
+            background-color: #25D366;
+            color: #fff;
+            font-size: 1.3rem;
+            text-align: center;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
+        }
+
+        .whatsapp-button:hover, .vip-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+        }
+
+        .whatsapp-button {
+            background-color: #128C7E;
+            font-weight: bold;
+        }
+
+        .vip-button {
+            background-color: #ff4090;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.85);
+            color: #ccc;
+            font-size: 1rem;
+        }
+
+        footer a {
+            color: #ff4090;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Efeito de animação nos botões */
+        .whatsapp-button, .vip-button {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
+        /* Efeito de transição para o carrossel */
+        .carousel-inner {
+            transition: all 0.3s ease;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Primeira Imagem -->
+    <div class="hero">
+        <img src="https://keiseninfa.com/wp-content/uploads/2024/12/Bloco-01.png" alt="Imagem de Destaque">
+    </div>
+
+    <!-- Carrossel de Fotos -->
+    <div class="carousel">
+        <button class="carousel-btn left">&#8249;</button>
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <img src="https://keiseninfa.com/wp-content/uploads/2024/12/Slider-com-feedbacks-04.png" alt="Foto 1">
+            </div>
+            <div class="carousel-item">
+                <img src="https://keiseninfa.com/wp-content/uploads/2024/12/Slider-com-feedbacks-03.png" alt="Foto 2">
+            </div>
+            <div class="carousel-item">
+                <img src="https://keiseninfa.com/wp-content/uploads/2024/12/Slider-com-feedbacks-02.png" alt="Foto 3">
+            </div>
+            <div class="carousel-item">
+                <img src="https://keiseninfa.com/wp-content/uploads/2024/12/Slider-com-feedbacks-05.png" alt="Foto 4">
+            </div>
+            <div class="carousel-item">
+                <img src="https://keiseninfa.com/wp-content/uploads/2024/12/Slider-com-feedbacks-01.png" alt="Foto 5">
+            </div>
+        </div>
+        <button class="carousel-btn right">&#8250;</button>
+    </div>
+
+    <!-- Botões de Ação -->
+    <a href="https://t.me/+gfaLikqXAQAwMmMx" class="vip-button">Vem gozar comigo. Entre no VIP 🔥</a>
+
+    <a href="https://wa.link/3kwkmv" class="whatsapp-button">Meu WhatsApp 😉</a>
+
+</div>
+
+<footer>
+    <p>© 2025 - Conteúdo Exclusivo. Todos os direitos reservados.</p>
+    <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a></p>
+</footer>
+
+<!-- Meta Pixel Code -->
+<script async="" src="js/gtm.js"></script><script async="" src="js/fbevents.js"></script><script>
+    !function(f,b,e,v,n,t,s) {
+        if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)}; 
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)
+    }(window, document,'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '927943742783974'); 
+    fbq('track', 'PageView');
+    fbq('track', 'Purchase', {value: 14.99, currency: 'BRL'});
+</script>
+<!-- End Meta Pixel Code -->
+
+<!-- Google Tag Manager -->
+<script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WSCPRC5P');
+</script>
+<!-- End Google Tag Manager -->
+
+<!-- Pushcut Notification -->
+<script>
+    // Pushcut API - Substitua pela sua URL de API Pushcut
+    fetch('https://api.pushcut.io/Ihn-F2bH9UPrbTfwjRKHS/notifications/vendas', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            "title": "Venda Aprovada!✅",
+            "message": "A sua venda foi aprovada com sucesso! 🔥",
+            "priority": "high"
+        })
+    });
+</script>
+
+</body>
+</html>
